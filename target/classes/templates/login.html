@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<header th:include="/common/header::header"></header>
+
+<style>
+    .login-wrap {
+        height: 100%;
+        background-color: #324152;
+        display: flex;
+        /* 弹性布局 */
+        justify-content: center;
+        align-items: center;
+    }
+
+    .login-wrap .login-form {
+        background-color: #fff;
+        width: 300px;
+        padding: 30px;
+        /* 圆角 */
+        border-radius: 5px;
+    }
+
+    .login-wrap .login-form .login-btn {
+        width: 100%;
+    }
+</style>
+<body>
+<div id="app">
+    <div class="login-wrap">
+        <el-form class="login-form"
+                 label-position="top"
+                 label-width="80px"
+                 :model="formdata">
+            <h2>用户登录</h2>
+            <el-form-item label="用户名">
+                <el-input v-model="formdata.account"
+                          placeholder="请输入用户名">
+                </el-input>
+            </el-form-item>
+            <el-form-item label="密码">
+                <el-input v-model="formdata.password"
+                          placeholder="请输入密码"
+                          show-password></el-input>
+            </el-form-item>
+            <el-button class="login-btn"
+                       type="primary"
+                       @click="handleLogin()">登陆
+            </el-button>
+        </el-form>
+    </div>
+</div>
+</body>
+<script src="/vue/axios.min.js"></script>
+<script src="/plugin.js"></script>
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            formdata: {
+                account: '', // 用户名
+                password: ''// 登陆密码
+            }
+        },
+        methods: {
+            //校验登录
+            async handleLogin() {
+                const res = await axios.post('user/login', this.formdata)
+                // console.log(res)
+                const {status, data: {code, msg, data}} = res
+                console.log("code:" + code + " msg : " + msg + " data : " + data)
+                if (status === 200) {
+                    if (code === 0) {
+                        // 保存toekn 用于登录验证
+                        localStorage.setItem("access-token", data.accessToken)//token
+                        localStorage.setItem("account", data.account)//账号
+                        this.$message.success("登录成功")
+                        setTimeout(() => {
+                            window.location.href = "/home"
+                        }, 500)
+                    } else if (code === 4000003 || code === 4000002) {
+                        this.$message.warning(msg)
+                    }
+                }
+            }
+        }
+    })
+</script>
+</html>

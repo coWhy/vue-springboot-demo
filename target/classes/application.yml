@@ -1,0 +1,39 @@
+server:
+  port: 8080
+spring: #数据库配置
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/db_book?serverTimezone=Asia/Shanghai&characterEncoding=UTF-8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: lyq@qq.com
+  devtools: # 解决spring boot devtool 热部署后出现访问404 问题
+    restart:
+      poll-interval: 3000ms
+      quiet-period: 2999ms
+# mybatis配置
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: true  # 开启驼峰命名法
+#  global-config:
+#    db-config:
+#      logic-delete-value: 0 # 逻辑已删除值
+#      logic-not-delete-value: 1 # 逻辑未删除值
+  #      logic-delete-field: delFlag  #全局逻辑删除
+  mapper-locations: classpath:mapper/*.xml # 映射文件位置
+  type-aliases-package: com.book.crud,entity
+
+thymeleaf: # thymeleaf 试图解析器
+  prefix: classpath:/templates/
+  suffix: .html
+  servlet:
+    content-type: text/html
+  cache: false
+  encoding: UTF-8
+# jwt密钥
+jwt:
+  secretKey: (18061877017-lyq) # 密钥
+  accessTokenExpireTime: PT2H # token过期时间  2小时
+  refreshTokenExpireTime: PT8H # 刷新token过期时间 pc 8小时后刷新
+  refreshTokenExpireAppTime: P30D # 刷新token过期时间 app 30天后刷新
+  issuer: lyq # 签发人

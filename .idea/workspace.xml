@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="caaf28d3-6404-47b2-ace5-7a14f2417bfc" name="默认更改列表" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="jdbc:mysql://localhost:3306/db_book?serverTimezone=Asia/Shanghai&amp;characterEncoding=UTF-8" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="jdbc:mysql://localhost:3306/db_book?serverTimezone=Asia/Shanghai&amp;characterEncoding=UTF-8" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="jdbc:mysql://localhost:3306/db_book?serverTimezone=Asia/Shanghai&amp;characterEncoding=UTF-8" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="db_book: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ExecutionTargetDialog">
+    <checked>
+      <node key="e9eed547-2e67-4258-9b9f-f910d3ec7623" />
+    </checked>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="fc2a70b8-f04e-4fc8-a88e-3ad2a725e7a9" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$PROJECT_DIR$/../../develop/maven/maven_reposity" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../develop/maven/maven_363" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../develop/maven/maven_363/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="createModuleGroups" value="true" />
+        <option name="downloadAnnotationsAutomatically" value="true" />
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8 (2)" />
+        <option name="vmOptionsForImporter" value="-Xmx1024m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8 (2)" />
+  </component>
+  <component name="ProjectId" id="1aInNPOufH1M3Kuw5y8AyLB8XJq" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/book/crud/exception" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.1507799" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.book.crud.entity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/book/crud/exception" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/book/crud/config" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/book/crud/utils" />
+      <recent name="$PROJECT_DIR$/src/test/java/com/book/crud" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/book/crud" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/static/img" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/element" />
+      <recent name="$PROJECT_DIR$/src/main/resources/sql" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/vue" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CrudApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="vue-book-crud" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.book.crud.CrudApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+    <option name="showServicesTree" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="caaf28d3-6404-47b2-ace5-7a14f2417bfc" name="默认更改列表" comment="" />
+      <created>1586431934603</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586431934603</updated>
+      <workItem from="1586431938038" duration="162000" />
+      <workItem from="1586432109703" duration="234000" />
+      <workItem from="1586432628662" duration="2404000" />
+      <workItem from="1586444333533" duration="4715000" />
+      <workItem from="1586449086312" duration="2116000" />
+      <workItem from="1586451240642" duration="10462000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="560" y="189" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586444161052">
+      <screen x="0" y="23" width="1920" height="1002" />
+    </state>
+    <state x="560" y="189" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.1002@0.23.1920.1002" timestamp="1586444161052" />
+    <state x="789" y="299" key="#com.intellij.ide.util.MemberChooser" timestamp="1586453766579">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="789" y="299" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1586453766579" />
+    <state x="789" y="300" key="#com.intellij.ide.util.MemberChooser/0.23.1920.1002@0.23.1920.1002" timestamp="1586452392243" />
+    <state x="303" y="377" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1586447036638">
+      <screen x="0" y="23" width="1920" height="1002" />
+    </state>
+    <state x="303" y="377" key="#com.intellij.ide.util.PackageChooserDialog/0.23.1920.1002@0.23.1920.1002" timestamp="1586447036638" />
+    <state x="786" y="373" width="348" height="304" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586446985990">
+      <screen x="0" y="23" width="1920" height="1002" />
+    </state>
+    <state x="786" y="373" width="348" height="304" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1920.1002@0.23.1920.1002" timestamp="1586446985990" />
+    <state x="698" y="278" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586447008246">
+      <screen x="0" y="23" width="1920" height="1002" />
+    </state>
+    <state x="698" y="278" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.1002@0.23.1920.1002" timestamp="1586447008246" />
+    <state x="560" y="189" key="#项目结构" timestamp="1586442163376">
+      <screen x="0" y="23" width="1920" height="1002" />
+    </state>
+    <state x="560" y="189" key="#项目结构/0.23.1920.1002@0.23.1920.1002" timestamp="1586442163376" />
+    <state x="734" y="192" key="ExecutionTargetDialog" timestamp="1586446755190">
+      <screen x="0" y="23" width="1920" height="1002" />
+    </state>
+    <state x="734" y="192" key="ExecutionTargetDialog/0.23.1920.1002@0.23.1920.1002" timestamp="1586446755190" />
+    <state width="1878" height="134" key="GridCell.Tab.0.bottom" timestamp="1586459124846">
+      <screen x="0" y="23" width="1920" height="1002" />
+    </state>
+    <state width="1878" height="230" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586454275876" />
+    <state width="1878" height="134" key="GridCell.Tab.0.bottom/0.23.1920.1002@0.23.1920.1002" timestamp="1586459124846" />
+    <state width="1878" height="134" key="GridCell.Tab.0.center" timestamp="1586459124845">
+      <screen x="0" y="23" width="1920" height="1002" />
+    </state>
+    <state width="1878" height="230" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586454275875" />
+    <state width="1878" height="134" key="GridCell.Tab.0.center/0.23.1920.1002@0.23.1920.1002" timestamp="1586459124845" />
+    <state width="1878" height="134" key="GridCell.Tab.0.left" timestamp="1586459124844">
+      <screen x="0" y="23" width="1920" height="1002" />
+    </state>
+    <state width="1878" height="230" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586454275873" />
+    <state width="1878" height="134" key="GridCell.Tab.0.left/0.23.1920.1002@0.23.1920.1002" timestamp="1586459124844" />
+    <state width="1878" height="134" key="GridCell.Tab.0.right" timestamp="1586459124846">
+      <screen x="0" y="23" width="1920" height="1002" />
+    </state>
+    <state width="1878" height="230" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586454275875" />
+    <state width="1878" height="134" key="GridCell.Tab.0.right/0.23.1920.1002@0.23.1920.1002" timestamp="1586459124846" />
+    <state width="1878" height="134" key="GridCell.Tab.1.bottom" timestamp="1586459124848">
+      <screen x="0" y="23" width="1920" height="1002" />
+    </state>
+    <state width="1878" height="230" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586454275879" />
+    <state width="1878" height="134" key="GridCell.Tab.1.bottom/0.23.1920.1002@0.23.1920.1002" timestamp="1586459124848" />
+    <state width="1878" height="134" key="GridCell.Tab.1.center" timestamp="1586459124847">
+      <screen x="0" y="23" width="1920" height="1002" />
+    </state>
+    <state width="1878" height="230" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586454275877" />
+    <state width="1878" height="134" key="GridCell.Tab.1.center/0.23.1920.1002@0.23.1920.1002" timestamp="1586459124847" />
+    <state width="1878" height="134" key="GridCell.Tab.1.left" timestamp="1586459124846">
+      <screen x="0" y="23" width="1920" height="1002" />
+    </state>
+    <state width="1878" height="230" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586454275877" />
+    <state width="1878" height="134" key="GridCell.Tab.1.left/0.23.1920.1002@0.23.1920.1002" timestamp="1586459124846" />
+    <state width="1878" height="134" key="GridCell.Tab.1.right" timestamp="1586459124847">
+      <screen x="0" y="23" width="1920" height="1002" />
+    </state>
+    <state width="1878" height="230" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586454275878" />
+    <state width="1878" height="134" key="GridCell.Tab.1.right/0.23.1920.1002@0.23.1920.1002" timestamp="1586459124847" />
+    <state x="469" y="163" key="SettingsEditor" timestamp="1586448743382">
+      <screen x="0" y="23" width="1920" height="1002" />
+    </state>
+    <state x="469" y="163" key="SettingsEditor/0.23.1920.1002@0.23.1920.1002" timestamp="1586448743382" />
+    <state width="944" height="445" key="SwitcherDM" timestamp="1586452375266">
+      <screen x="0" y="23" width="1920" height="1002" />
+    </state>
+    <state width="944" height="445" key="SwitcherDM/0.23.1920.1002@0.23.1920.1002" timestamp="1586452375266" />
+    <state x="599" y="242" key="run.anything.popup" timestamp="1586458254485">
+      <screen x="0" y="23" width="1920" height="1002" />
+    </state>
+    <state x="599" y="242" key="run.anything.popup/0.23.1920.1002@0.23.1920.1002" timestamp="1586458254485" />
+    <state x="625" y="244" width="670" height="676" key="search.everywhere.popup" timestamp="1586452377888">
+      <screen x="0" y="23" width="1920" height="1002" />
+    </state>
+    <state x="625" y="244" width="670" height="676" key="search.everywhere.popup/0.23.1920.1002@0.23.1920.1002" timestamp="1586452377888" />
+  </component>
+</project>
